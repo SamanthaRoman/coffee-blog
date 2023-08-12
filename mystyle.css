@@ -1,0 +1,94 @@
+/*global*/
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    line-height: 2;
+}
+
+/*utilities*/
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.read-btn {
+    display: block;
+    width: 120px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    background-color: black;
+}
+
+.more-btn {
+    display: block;
+    width: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    background-color: brown;
+}
+
+/*header*/
+.site-init {
+    background-image: url(../img/banner.jpg);
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+}
+
+.site-init p {
+    text-align: center;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/*main*/
+
+/*blogs*/
+.blog-container {
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+/*footer*/
+.footer {
+    background-color: black;
+    color: white;
+    height: 80px;
+}

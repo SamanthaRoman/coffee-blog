@@ -1,44 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Blog</title>
+    <link rel="stylesheet" href="./styles/mystyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,700&family=Raleway:ital,wght@0,200;0,300;0,400;1,300&display=swap"
+        rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Coffee Blog</h1>
-        <h2>Coffee Blog with tips and Courses</h2>
-        <p>Learn from the experts with the best recipes and tips</p>
 
+<body>
+    <header class="site-init">
+        <div>
+            <h1>Coffee Blog</h1>
+            <h2 class="title">Coffee Blog with tips and Courses</h2>
+            <p>Learn from the experts with the best recipes and tips</p>
+        </div>
     </header>
-    <main>
+
+    <main class="container">
         <h2>Our Blog</h2>
 
 
-        <div>
-            <!-- add an img here -->
+        <div class="blog-container">
+            <img src="./img/blog1.jpg" alt="coffee image">
             <h3>Coffee Bean Type</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus unde modi harum eveniet deleniti at, veniam sunt nihil tempore quo, expedita sint amet eligendi possimus officiis. Quam, est odio!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus natus unde modi harum eveniet deleniti
+                at, veniam sunt nihil tempore quo, expedita sint amet eligendi possimus officiis. Quam, est odio!</p>
+            <a class="read-btn" href="#">Read more</a>
         </div>
 
 
-        <div>
-            <!-- add an img here -->
+        <div class="blog-container">
+            <img src="./img/blog2.jpg" alt="cup of coffee and cupcakes">
             <h3>3 Delicious Coffee Recipes</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quae ratione sapiente nam accusantium explicabo unde dolor provident expedita maiores cum a, sequi saepe molestias praesentium ad molestiae alias amet.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quae ratione sapiente nam accusantium
+                explicabo unde dolor provident expedita maiores cum a, sequi saepe molestias praesentium ad molestiae
+                alias amet.</p>
+            <a class="read-btn" href="#">Read more</a>
         </div>
 
-        <div>
-            <!-- add an img here -->
+        <div class="blog-container">
+            <img src="./img/blog3.jpg" alt="coffee beans">
             <h3>Coffee Benefits</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ratione molestiae adipisci in, quas tempore facere natus quidem ad reiciendis non esse consequatur dolore! Dolores neque voluptatem quasi illum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam alias ratione molestiae adipisci in,
+                quas tempore facere natus quidem ad reiciendis non esse consequatur dolore! Dolores neque voluptatem
+                quasi illum?</p>
+            <a class="read-btn" href="#">Read more</a>
         </div>
-
-       
     </main>
-    <footer>
-    <h2>CoffeeBlog</h2>
+
+    <aside class="container">
+        <div class="blog-container">
+            <h3>Our Courses and Workshops</h3>
+            <h2>Coffee extraction techniques</h2>
+            <p><strong>Price:</strong> Free</p>
+            <p><strong>Quota:</strong> 20</p>
+            <a class="more-btn" href="#">More Information</a>
+        </div>
+        <div class="blog-container">
+            <h3>4 Coffee Recipes for Beginners</h3>
+            <h2>Coffee extraction techniques</h2>
+            <p><strong>Price:</strong> Free</p>
+            <p><strong>Quota:</strong> 20</p>
+            <a class="more-btn" href="#">More Information</a>
+        </div>
+    </aside>
+    <footer class="footer">
+        <h2>CoffeeBlog</h2>
     </footer>
 </body>
+
 </html>
