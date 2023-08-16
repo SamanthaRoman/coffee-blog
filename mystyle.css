@@ -15,7 +15,7 @@ h2,
 h3 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    padding: 10px;
+    padding: 0px;
 }
 
 img {
@@ -34,7 +34,7 @@ p {
 
 /*utilities*/
 .container {
-    width: 70%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -67,6 +67,11 @@ p {
     flex-direction: row;
 }
 
+.align-header {
+    text-align: left;
+    padding: 0px;
+}
+
 
 /*header*/
 .site-init {
@@ -86,6 +91,7 @@ p {
 
 .site-init p {
     text-align: center;
+    justify-content: center;
 }
 
 .title {
@@ -101,11 +107,22 @@ p {
     margin-right: 20px;
 
 }
+.site-header {
+    background-color: black;
+    height: 100px;
+}
+
+.site-header h1 {
+    color: White;
+}
 
 /*main*/
 main {
     margin-right: 10px;
 }
+
+
+
 
 /*blogs*/
 .blog-container {
@@ -132,3 +149,59 @@ main {
     margin-left: 20px;
     text-align: justify;
 }
+
+
+/*Contact*/
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-img{
+    width: 100%;
+}
+.contact-form{
+    background-color: white;
+    width: 50%;
+    padding: 20px;
+    margin-top: -50px;
+}
+.form-control{
+margin: 10px;
+}
+label{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    margin-right: 5px;
+}
+input{
+    padding: 5px;
+    width: 70%;
+}
+textarea{
+    padding: 5px;
+    width: 70%;
+}
+
+/*Contact*/
+.course-container{
+    display: flex;
+}
+.course-item{
+    background-color: rgb(219, 217, 216);
+    padding: 30px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.course-item h3{
+text-align: left;
+margin-top: 5px;
+}
+
+
